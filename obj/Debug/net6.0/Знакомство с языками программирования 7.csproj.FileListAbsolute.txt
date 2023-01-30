@@ -1,0 +1,15 @@
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\bin\Debug\net6.0\Знакомство с языками программирования 7.exe
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\bin\Debug\net6.0\Знакомство с языками программирования 7.deps.json
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\bin\Debug\net6.0\Знакомство с языками программирования 7.runtimeconfig.json
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\bin\Debug\net6.0\Знакомство с языками программирования 7.dll
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\bin\Debug\net6.0\Знакомство с языками программирования 7.pdb
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.csproj.AssemblyReference.cache
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.AssemblyInfoInputs.cache
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.AssemblyInfo.cs
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.csproj.CoreCompileInputs.cache
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.dll
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\refint\Знакомство с языками программирования 7.dll
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.pdb
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\Знакомство с языками программирования 7.genruntimeconfig.cache
+C:\Users\GPC\OneDrive\Рабочий стол\Знакомство с языками программирования 7\obj\Debug\net6.0\ref\Знакомство с языками программирования 7.dll
