@@ -17,19 +17,50 @@ void PrintArray(int[,] inArray)
     {
         for (int j = 0; j < inArray.GetLength(1); j++)
         {
-            Console.Write($"{inArray[i,j]} ");
+            Console.Write($"{inArray[i, j]}");
         }
         Console.WriteLine();
     }
 }
-//Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
-Console.WriteLine("Введите количество строк массива: ");
-int columns = Convert.ToInt32 (Console.ReadLine());
-Console.WriteLine("Введите количество столбцов массива: ");
-int rows = Convert.ToInt32 (Console.ReadLine());
-PrintArray(GetArray(columns,rows,-100,100));
+string FindNumber(int[,] inArray, int Numb)
+{
+    int x = 0;
+    int y = 0;
+    for (int i = 0; i < inArray.GetLength(0); i++)
+    {
+        for (int j = 0; j < inArray.GetLength(1); j++)
+        {
+            if (inArray[i, j] == Numb)
+            {
+                x = i;
+                y = j;
+            }
 
+        }
+    }
+    if (x == 0 && y == 0)
+    {
+        return ($"Элемента {Numb} в массиве нет.");
+    }
+    else {
+        return ($"Элемент {Numb} стоит в массиве на {x} строке в {y} столбце");
+    }
+
+}
+//Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+/*
+Console.WriteLine("Введите количество строк массива: ");
+int columns = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите количество столбцов массива: ");
+int rows = Convert.ToInt32(Console.ReadLine());
+PrintArray(GetArray(columns, rows, -100, 100));
+*/
 //Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, 
-//и возвращает значение этого элемента или же указание, что такого элемента нет.
+//и возвращает значение этого элемента или же указание, что такого элемента нет. (В примере указан поиск числа по значению, а не позиции элемента)
+int[,] NewArray = GetArray(10, 10, -100, 100);
+Console.WriteLine("Введите число, которое хотите найти в массиве: ");
+PrintArray(NewArray);
+int Number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(FindNumber(NewArray, Number));
 
 //Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
