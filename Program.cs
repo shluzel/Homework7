@@ -48,7 +48,7 @@ string FindNumber(int[,] inArray, int Numb)
 
 }
 double [] AverageRows (int [,] inArray) {
-    double [] res = new double [inArray.GetLength(1)];
+    double [] res = new double [inArray.GetLength(0)];
     double sum = 0;
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
@@ -78,12 +78,12 @@ int Number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(FindNumber(NewArray, Number));
 */
 //Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-int[,] NewArray = GetArray(4, 4, -10, 10);
+int[,] NewArray = GetArray(4, 5, -10, 10);
 Console.WriteLine("Массив: ");
 PrintArray(NewArray);
 double [] AverageArray = AverageRows(NewArray);
 Console.WriteLine("Среднее арифметическое строк массива: ");
-for (int i = 0; i < NewArray.GetLength(1); i++)
+for (int i = 0; i < NewArray.GetLength(0); i++)
         {
             Console.Write($"{AverageArray[i]}  ");
         }
